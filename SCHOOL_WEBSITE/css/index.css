@@ -909,8 +909,10 @@ p{
 }
 .gridcontainer{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+   grid-template-columns: repeat(2, minmax(200px,1fr));
+   grid-template-columns: auto-fit;
    gap: 15px;
+   margin-left: 20px;
 }
 
 .container{
@@ -929,4 +931,17 @@ p{
    width: 50%;
    min-height: auto;
    margin-left: 10px;
+}
+.aboutstuff p{
+   font-size: 1.0rem;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.aboutfooter{
+   width: 100%;
+   height: 100px;
+   margin-top: 20px;
+   /* border-top: 2px solid gray; */
+   box-shadow: 15px 0 0 0 rgb(20, 20, 20);
+   background-color: white;
 }
