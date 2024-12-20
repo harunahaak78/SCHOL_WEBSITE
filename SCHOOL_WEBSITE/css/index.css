@@ -1023,3 +1023,50 @@ ul{
     width: 100%;
 }
 }
+
+/* register */
+.regfrom{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+
+}
+.regfrom .imgsvg{
+   width: 50%;
+   margin-left: 40px;
+}
+.frominput{
+   width: 50%;
+   margin-left: 20px;
+}
+input[type=text]{
+   width: 100%;
+   padding: 10px;
+   border: 1px solid;
+   border-radius: 10px;
+}
+input[type=date]{
+   width: 20%;
+   padding: 10px;
+   border-radius: 5px;
+}
+input[type=text]:hover{
+   box-shadow:0 2px 2px 2px lightgrey;
+   border-color: rgb(45, 45, 240);
+}
+input[type=submit]{
+   width: 50%;
+   color: white;
+   margin-top: 5px;
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(61, 61, 250);
+
+}
+input[type=submit]:active{
+   box-shadow:0 5px 5px 5px rgb(170, 166, 166);
+   border-color: rgb(23, 23, 252);
+}
+
