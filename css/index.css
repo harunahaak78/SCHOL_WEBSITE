@@ -48,6 +48,7 @@ p{
    padding-top: 10px;
 }
 
+
 .coverDiv .mainHeader .logoSec{
    width: auto;
    height: auto;
@@ -556,7 +557,7 @@ p{
 .divSix{
    width: 100%;
    min-height: 400px;
-   background: url(../img/overlay.jpg) fixed no-repeat;
+   background: url(../img/medium-shot-kids-with-tablet.jpg) fixed no-repeat;
    background-size: cover;
 }
 
@@ -695,15 +696,12 @@ p{
 }
 /* About page style begin */
 
-/* .coverDiv1{
+.coverDiv1{
    width: 100%;
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-   background: url(../img/building-3.jpg) fixed no-repeat;
-   background-position: center;
-   background-size: cover;
-} */
+   min-height:0;
+   background-color: black;
+   
+}
 
 .coverDiv1 .mainHeader{
    width: 100%;
